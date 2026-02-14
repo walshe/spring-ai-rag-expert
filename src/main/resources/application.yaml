@@ -20,6 +20,7 @@ spring:
           password: "milvus"
         databaseName: "default"
         collectionName: "vector_store"
+        initialize-schema: true
         embeddingDimension: 1536
         indexType: IVF_FLAT
         metricType: COSINE
